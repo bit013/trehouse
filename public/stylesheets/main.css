@@ -1,0 +1,220 @@
+.container {
+  width: 940px;
+  margin: auto;
+}
+
+body {
+  margin: auto;
+  line-height: 1.42;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ttl {
+  font-size: 60px;
+  text-align: center;
+}
+
+.txt {
+  font-size: 20px;
+  color: #555555;
+  text-align: center;
+}
+
+.header {
+  padding: 42px 0;
+}
+
+.header_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_block {
+  display: flex;
+}
+
+.logo_name {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.logo_img {
+  width: 30px;
+  height: 30px;
+  background-color: #7cc576;
+  border-radius: 20px;
+  margin-right: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/leaf.png);
+}
+
+.panel_item {
+  font-size: 14px;
+  margin-right: 36px;
+}
+
+.panel_link {
+  color: #555555;
+  font-weight: 700;
+}
+
+.panel_list {
+  display: flex;
+}
+
+.body_preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.body_preview:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.preview_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0;
+}
+
+.preview_title {
+  z-index: 10;
+  width: 560px;
+  font-size: 60px;
+  color: #ffffff;
+  padding-bottom: 40px;
+  font-weight: 700;
+}
+
+.preview_text {
+  color: #555555;
+  padding-bottom: 60px;
+}
+
+.preview_button {
+  background-color: #7cc576;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  padding: 0 35px;
+}
+
+.button_link {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+}
+
+.body_services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 230px;
+}
+
+.services_title {
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.services_text {
+  margin-bottom: 90px;
+}
+
+.services_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  grid-auto-rows: 290px;
+}
+
+.services_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon_set {
+  width: 60px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+.services_item_name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.service_item_description {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.gear_icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 2px solid #555555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gear_mark {
+  width: 15px;
+  height: 6px;
+  border-radius: 2px;
+  border-left: 3px solid #555555;
+  border-bottom: 3px solid #555555;
+  transform: rotate(-45deg);
+}
+
+.gear_item {
+  display: flex;
+}
+
+/*# sourceMappingURL=main.css.map */

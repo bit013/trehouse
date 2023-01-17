@@ -34,9 +34,16 @@
 .panel_link{
     color: $grey;
     font-weight: 700;
+    background: linear-gradient(to right, transparent,transparent),
+        linear-gradient(to right, #006400, #03a9f4, #021691);
+    background-size: 100% 3px,0 3px;
+    background-position: 100% 100%,0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
 }
+
 .panel_link:hover{
-    color: $black;
+    background-size: 0 3px, 100% 3px;
 }
 .panel_list{
     display: flex;

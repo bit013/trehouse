@@ -1,4 +1,4 @@
-.footer_social{
+.footer_content{
     background-color: #222222;
     color: $white;
     padding: 60px 0;
@@ -7,6 +7,8 @@
 }
 .social_block{
     display: flex;
+    gap: 100px;
+    justify-content: space-between;
 }
 .socials_item{
     margin-bottom: 10px;
@@ -21,26 +23,25 @@
 .socials_item{
     display: flex;
 }
-.contacts_list{
-    margin-right: 100px;
-}
-.posts_list{
-    margin-right: 25px;
-}
-.posts_list{
-    width: 310px;
-}
+// .contacts_list{
+//     margin-right: 100px;
+// }
+// .posts_list{
+//     margin-right: 25px;
+// }
+// .posts_list{
+//     width: 310px;
+// }
 .tweets_item_describe{
     font-size: 20px;
-    width: 250px;
+    // width: 250px;
 }
 .posts_item_describe{
     font-size: 20px;
-    width: 260px;
+    // width: 260px;
 }
 .contacts_item_describe{
     font-size: 20px;
-    width: 160px;
 }
 .tweets_item_text:hover{
     color: $green;
@@ -56,6 +57,16 @@
 }
 .item_date{
     font-size: 12px;
+}
+
+.social_contacts{
+    flex-basis: calc((100% / 3) - 60px);
+}
+.social_posts{
+    flex-basis: calc((100% / 3) - 60px);
+}
+.social_tweets{
+    flex-basis: calc((100% / 3) - 60px);
 }
 .tweets_item_img{
     width: 25px;

@@ -30,7 +30,6 @@
 
 .panel_item{
     font-size: 14px;
-    margin-right: 36px;
 }
 .panel_link{
     color: $grey;
@@ -41,4 +40,5 @@
 }
 .panel_list{
     display: flex;
+    gap: 36px;
 }
